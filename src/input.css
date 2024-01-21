@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    @media (min-width:1024px){
+        .container{
+            max-width: 1024px;
+        }
+    }
+}
+
+@layer components{
+    .primary-text-color{
+        color: #edffff;
+    }
+    .secondary-text-color{
+        color: #ffc322;
+    }
+}
+
