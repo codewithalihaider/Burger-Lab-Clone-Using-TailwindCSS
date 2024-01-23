@@ -9,25 +9,25 @@
 </head>
 <body>
     <div class="bg-[#010a5e] h-auto">
-        <header class="flex gap-56 justify-start items-start mx-5 h-10">
+        <header class="flex gap-56 justify-center items-center mx-5 h-10 md:justify-center md:items-center">
             <div class="my-3 font-poppins font-medium">
             <a class="primary-text-color uppercase text-2xl" href="#">Bur<span class="secondary-text-color uppercase text-2xl">ger</span></a>
             </div>
-            <div class="hidden">
-                <ul class="flex flex-row">
-                    <li><a href="#">Home</a></li>
+            <div class="hidden md:flex">
+                <ul class="flex flex-row gap-6">
+                    <li><a class="text-white text-lg font-normal font-poppins" href="#">Home</a></li>
 
-                    <li><a href="#">About US</a></li>
+                    <li><a class="text-white text-lg font-normal font-poppins" href="#">About US</a></li>
 
-                    <li><a href="#">Menu</a></li>
+                    <li><a class="text-white text-lg font-normal font-poppins" href="#">Menu</a></li>
 
-                    <li><a href="#">Review</a></li>
+                    <li><a class="text-white text-lg font-normal font-poppins" href="#">Review</a></li>
 
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="text-white text-lg font-normal font-poppins" href="#">Contact</a></li>
                 </ul>
             </div>
 
-            <div class="flex items-center justify-center gap-6 primary-text-color my-3">
+            <div class="flex items-center justify-center gap-6 primary-text-color my-3 md:hidden">
                 <div>
                     <i class="fa-regular fa-moon text-xl cursor-pointer"></i>
                 </div>
@@ -35,62 +35,61 @@
             </div>
         </header>
 
-        <div class="flex justify-center flex-col items-center mx-5">
+        <div class="flex justify-center flex-col items-center mx-5 md:justify-center md:items-center md:flex-row md:my-14 md:gap-5 lg:gap-8">
             <div class="">
                 <img class="w-60 bg-none" src="assets/home-image.png" alt="">
             </div>
-            <div class="flex flex-col items-center justify-center">
-                <h1 class="uppercase text-3xl text-center primary-text-color font-poppins font-medium">happy tummy with tasty burger.</h1>
-                <div class="w-32 h-1 bg-[#ffc322] my-3"></div>
-                <p class="text-lg text-center primary-text-color font-poppins font-normal my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas impedit voluptatum itaque asperiores error, aspernatur ad, voluptate quos architecto</p>
+            <div class="flex flex-col items-center justify-center md:flex-col md:basis-[50%] lg:basis-[50%]">    
+                <h1 class="uppercase text-3xl text-center primary-text-color font-poppins font-medium md:text-start lg:text-start">happy tummy with tasty burger.</h1>
+                <div class="w-32 h-1 bg-[#ffc322] my-3 md:mx-0"></div>
+                <p class="text-lg text-center primary-text-color font-poppins font-normal my-3 md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas impedit voluptatum itaque asperiores error, aspernatur ad, voluptate quos architecto</p>
+                <div class="flex my-8 gap-6 text-center md:gap-16 lg:gap-28">
+                    <div class="text-[#ffc322]"><i class="fa-solid fa-utensils fa-3x"></i>
+                        <br><span class="primary-text-color">Delicious</span></div>
+    
+                    <div class="text-[#ffc322]"><i class="fa-solid fa-droplet fa-3x"></i>
+                    <br><span class="primary-text-color">Fresh</span></div>
+    
+                    <div class="text-[#ffc322]"><i class="fa-brands fa-envira fa-3x"></i><br>
+                    <span class="primary-text-color">Organic</span></div>
+                </div>
+                <a class="bg-[#ffc322] py-3 px-6 rounded-md font-poppins" href="#">Learn More</a>
+            </div>
             </div>
 
-            <div class="flex my-8 gap-6 text-center">
-                <div class="text-[#ffc322]"><i class="fa-solid fa-utensils fa-3x"></i>
-                    <br><span class="primary-text-color">Delicious</span></div>
-
-                <div class="text-[#ffc322]"><i class="fa-solid fa-droplet fa-3x"></i>
-                <br><span class="primary-text-color">Fresh</span></div>
-
-                <div class="text-[#ffc322]"><i class="fa-brands fa-envira fa-3x"></i><br>
-                <span class="primary-text-color">Organic</span></div>
-            </div>
-            <a class="bg-[#ffc322] py-3 px-6 rounded-md font-poppins" href="#">Learn More</a>
-        </div>
-
-        <section class="mx-5 my-12 flex flex-col gap-7">
-            <div class="flex gap-6 bg-[#ffc322] rounded-md py-1 items-center">
-                <div class="justify-end"><img class="h-28" src="assets/burger-1.png" alt=""></div>
-                <div><h3 class="primary-text-color text-2xl font-poppins font-medium">Food</h3>
-                <p class="primary-text-color text-sm font-poppins font-normal">Lorem ipsum dolor</p>
+        <section class="mx-5 my-12 flex flex-col gap-7 md:flex-row md:justify-center lg:justify-center">
+            <div class="flex gap-6 bg-[#ffc322] rounded-md py-1 items-center md:px-11">
+                <div class="justify-end md:justify-start md:items-start"><img class="h-28 md:h-20" src="assets/burger-1.png" alt=""></div>
+                <div class="md:basis-[75%]"><h3 class="primary-text-color text-2xl font-poppins font-medium md:text-xl">Food</h3>
+                <p class="primary-text-color text-sm font-poppins font-normal md:text-xs">Lorem ipsum dolor</p>
                 <a class="text-red-600 font-medium" href="#">Buy Online</a>
             </div>
             </div>
 
-            <div class="flex gap-6 bg-red-600 rounded-md py-1 items-center">
-                <div class="justify-end"><img class="h-28" src="assets/burger-1.png" alt=""></div>
-                <div><h3 class="primary-text-color text-2xl font-poppins font-medium">Food</h3>
-                <p class="primary-text-color text-sm font-poppins font-normal">Lorem ipsum dolor</p>
+            <div class="flex gap-6 bg-red-600 rounded-md py-1 items-center md:px-11">
+                <div class="justify-end"><img class="h-28 md:h-20" src="assets/burger-1.png" alt=""></div>
+                <div><h3 class="primary-text-color text-2xl font-poppins font-medium md:text-xl">Food</h3>
+                <p class="primary-text-color text-sm font-poppins font-normal md:text-xs">Lorem ipsum dolor</p>
                 <a class="text-[#ffc322] font-medium" href="#">Buy Online</a>
             </div>
             </div>
 
 
-            <div class="flex gap-6 bg-green-700 rounded-md py-1 items-center">
-                <div class="justify-end"><img class="h-28" src="assets/burger-1.png" alt=""></div>
-                <div><h3 class="primary-text-color text-2xl font-poppins font-medium">Food</h3>
-                <p class="primary-text-color text-sm font-poppins font-normal">Lorem ipsum dolor</p>
+            <div class="flex gap-6 bg-green-700 rounded-md py-1 items-center md:px-11">
+                <div class="justify-end"><img class="h-28 md:h-20" src="assets/burger-1.png" alt=""></div>
+                <div><h3 class="primary-text-color text-2xl font-poppins font-medium md:text-xl">Food</h3>
+                <p class="primary-text-color text-sm font-poppins font-normal md:text-xs">Lorem ipsum dolor</p>
                 <a class="text-[#ffc322] font-medium" href="#">Buy Online</a>
             </div>
             </div>            
 
         </section>
 
-        <section class="mx-5 my-12 flex flex-col gap-7">
-            <div class="bg-[#010d78] rounded-md py-5 flex flex-col gap-5">
+        <section class="mx-5 my-12 flex flex-col gap-7 md:mx-10 lg:flex-row lg:justify-center">
+            <div class="bg-[#010d78] rounded-md py-5 flex flex-col gap-5 md:px-7">
                 <div class="flex justify-center"><img class="h-40" src="assets/promo-1.png" alt=""></div>
 
-                <div class="flex flex-col px-4 space-y-2">
+                <div class="flex flex-col px-4 space-y-2 md:justify-center md:items-center lg:items-start">
                 <p class="text-[#ffc322] text-xs">Payday Promo</p>
                 <h3 class="primary-text-color text-lg font-poppins font-bold">GET A 10% DISCOUNT ON PAYDAY WEEK</h3>
                 <p class="primary-text-color text-sm font-poppins font-normal">Lorem ipsum dolor</p>
@@ -100,7 +99,7 @@
             <div class="bg-[#010d78] rounded-md py-5 flex flex-col gap-5">
                 <div class="flex justify-center"><img class="h-40" src="assets/promo-2.png" alt=""></div>
 
-                <div class="flex flex-col px-4 space-y-2">
+                <div class="flex flex-col px-4 space-y-2 md:justify-center md:items-center lg:items-start">
                 <p class="text-[#ffc322] text-xs">Payday Promo</p>
                 <h3 class="primary-text-color text-lg font-poppins font-bold">GET A 10% DISCOUNT ON PAYDAY WEEK</h3>
                 <p class="primary-text-color text-sm font-poppins font-normal">Lorem ipsum dolor</p>
@@ -108,20 +107,19 @@
             </div>
         </section>
 
-        <section class="mx-5 my-12 flex flex-col gap-10">
+        <section class="mx-5 my-12 flex flex-col gap-10 md:mx-10 md:items-center md:justify-center lg:flex-row">
             <div><img class="rounded-md" src="assets/about.jpg" alt=""></div>
 
-            <div>
-            <h2 class="text-xl primary-text-color font-poppins font-bold">FIND FOOD AND DRINKS, ALL-IN-ONE PLACE FOR YOUR BEST TASTE.</h2>
-            <div class="bg-[#ffc322] h-1 w-24 my-5"></div>
-            <p class="text-gray-400 text-sm font-poppins font-normal mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-            <ul class="grid grid-cols-2 py-5 space-y-1">
+            <div class="text-center lg:basis-[50%] lg:gap-8">
+            <h2 class="text-xl primary-text-color font-poppins font-bold lg:text-3xl lg:text-start">FIND FOOD AND DRINKS, ALL-IN-ONE PLACE FOR YOUR BEST TASTE.</h2>
+            <p class="text-gray-400 text-sm font-poppins font-normal my-5 lg:text-lg lg:text-start">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            <ul class="grid grid-cols-2 py-5 space-y-1 lg:text-start lg:space-y-2 lg:py-5">
                 <li class="primary-text-color"><i class="fa-solid fa-check text-[#ffc322]"></i> Best Price</li>
                 <li class="primary-text-color"><i class="fa-solid fa-check text-[#ffc322]"></i> Best Service</li>
                 <li class="primary-text-color"><i class="fa-solid fa-check text-[#ffc322]"></i> Fresh Ingredient</li>
                 <li class="primary-text-color"><i class="fa-solid fa-check text-[#ffc322]"></i> Health Protocol</li>
             </ul>
-                <a class="bg-[#ffc322] py-3 px-6 rounded-md font-poppins" href="#">About Us</a>
+                <a class="bg-[#ffc322] py-3 px-6 rounded-md font-poppins lg:text-start" href="#">About Us</a>
             </div>
         </section>
 
@@ -137,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="my-10 mx-5 flex flex-col gap-6">
+            <div class="my-10 mx-5 grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-3 lg:gap-9">
                 <div>
                     <div class="bg-[#010d78] py-12 px-32 rounded-md hover:bg-[#ffc322] transition ease-out">
                         <img class="w-40 hover:scale-110 transition ease-out" src="assets/burger-1.png" alt="">
@@ -198,7 +196,62 @@
                         <img class="w-40 hover:scale-110 transition ease-out" src="assets/snack-1.png" alt="">
                     </div>
                     <div class="my-3">
-                        <h2 class="text-xl primary-text-color font-poppins font-bold">REGULAR BEEF BURGER</h2>
+                        <h2 class="text-xl primary-text-color font-poppins font-bold">FRENCH FRIES</h2>
+                        <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                        <p class="secondary-text-color text-xl font-poppins font-normal mb-5">$42.00</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-[#010d78] py-12 px-32 rounded-md hover:bg-[#ffc322] transition ease-out">
+                        <img class="w-40 hover:scale-110 transition ease-out" src="assets/snack-2.png" alt="">
+                    </div>
+                    <div class="my-3">
+                        <h2 class="text-xl primary-text-color font-poppins font-bold">FRENCH FRIES</h2>
+                        <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                        <p class="secondary-text-color text-xl font-poppins font-normal mb-5">$42.00</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-[#010d78] py-12 px-32 rounded-md hover:bg-[#ffc322] transition ease-out">
+                        <img class="w-40 hover:scale-110 transition ease-out" src="assets/snack-3.png" alt="">
+                    </div>
+                    <div class="my-3">
+                        <h2 class="text-xl primary-text-color font-poppins font-bold">FRENCH FRIES</h2>
+                        <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                        <p class="secondary-text-color text-xl font-poppins font-normal mb-5">$42.00</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-[#010d78] py-12 px-32 rounded-md hover:bg-[#ffc322] transition ease-out">
+                        <img class="w-40 hover:scale-110 transition ease-out" src="assets/snack-4.png" alt="">
+                    </div>
+                    <div class="my-3">
+                        <h2 class="text-xl primary-text-color font-poppins font-bold">FRENCH FRIES</h2>
+                        <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                        <p class="secondary-text-color text-xl font-poppins font-normal mb-5">$42.00</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-[#010d78] py-12 px-32 rounded-md hover:bg-[#ffc322] transition ease-out">
+                        <img class="w-40 hover:scale-110 transition ease-out" src="assets/snack-6.png" alt="">
+                    </div>
+                    <div class="my-3">
+                        <h2 class="text-xl primary-text-color font-poppins font-bold">FRENCH FRIES</h2>
+                        <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                        <p class="secondary-text-color text-xl font-poppins font-normal mb-5">$42.00</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="bg-[#010d78] py-12 px-32 rounded-md hover:bg-[#ffc322] transition ease-out">
+                        <img class="w-40 hover:scale-110 transition ease-out" src="assets/beverage-1.png" alt="">
+                    </div>
+                    <div class="my-3">
+                        <h2 class="text-xl primary-text-color font-poppins font-bold">SWEET SMOOTHIE</h2>
                         <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
                         <p class="secondary-text-color text-xl font-poppins font-normal mb-5">$42.00</p>
                     </div>
@@ -207,20 +260,107 @@
             </div>
         </section>
 
-        <section>
-            <div></div>
-            <div></div>
-        </section>
+        <section class="bg-[#010d78]">
+            <div class="mx-5 py-5 flex flex-col items-center gap-6">
+                <div class="flex flex-col items-center gap-6">
+                    <h2 class="text-2xl primary-text-color font-poppins font-bold">Customer Review</h2>
+                    <div class="bg-[#ffc322] h-1 w-24"></div>
+                    <p class="text-gray-400 text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                </div>
 
-        <section>
-            <div></div>
-            <div></div>
-        </section>
+            <div class="flex flex-col gap-8 lg:flex-row">
+                <div class="bg-[#010a5e] py-5 px-8 rounded-md">
+                    <p class="text-gray-400 text-sm font-poppins font-normal my-3">Lorem ipsum dolor sit amet, consectetuer.</p>
+                    <div class="flex gap-2 items-center">
+                        <img class="w-12 h-12 rounded-full" src="assets/review-1.jpg" alt="">
+                        <div>
+                            <p class="text-white text-xl font-poppins font-normal my-2">John Doe</p>
+                            <p class="text-gray-400 text-sm font-poppins font-normal my-2">Designer</p>
+                        </div>
+                        <i class="fa-solid text-4xl text-[#ffc322] fa-quote-right ml-20"></i>
+                    </div>
+                </div>
 
-        <footer>
-            <div>
-
+                <div class="bg-[#010a5e] py-5 px-8 rounded-md">
+                    <p class="text-gray-400 text-sm font-poppins font-normal my-3">Lorem ipsum dolor sit amet, consectetuer.</p>
+                    <div class="flex gap-2 items-center">
+                        <img class="w-12 h-12 rounded-full" src="assets/review-2.jpg" alt="">
+                        <div>
+                            <p class="text-white text-xl font-poppins font-normal my-2">John Doe</p>
+                            <p class="text-gray-400 text-sm font-poppins font-normal my-2">Designer</p>
+                        </div>
+                        <i class="fa-solid text-4xl text-[#ffc322] fa-quote-right ml-20"></i>
+                    </div>
+                </div>
             </div>
+        </div>
+        </section>
+
+        <section class="bg-[#ffc322] py-16">
+            <div class="mx-5 flex flex-col gap-4 items-center">
+                <div class="text-center">
+                    <h2 class="text-2xl text-black font-poppins font-bold md:text-4xl">GET EXCLUSIVE UPDATE</h2>
+                    <p class="text-white text-sm font-poppins font-normal my-2 md:text-lg">Lorem ipsum dolor sit amet, consectetuer.</p>
+                </div>
+                <div class="flex flex-col gap-2 md:gap-4">
+                    <input class="py-1 px-12 rounded-md md:px-20" type="email" name="" id="" placeholder="Email Address">
+                    <button class="bg-black py-2 text-white rounded-md" type="submit"><i class="fa-regular fa-paper-plane"></i> Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-[##010d78]">
+            <section class="mx-5 py-5 md:mx-11">
+                <div>
+                    <ul class="grid grid-cols-1 gap-6 pd-6 md:grid-cols-2 lg:grid-cols-4">
+                        <li>
+                            <div>
+                                <a class="primary-text-color uppercase text-2xl" href="#">Bur<span class="secondary-text-color uppercase text-2xl">ger</span></a>
+                                <p class="text-white text-sm font-poppins font-normal my-2">Lorem ipsum dolor sit amet, consectetuer.</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="flex flex-col gap-2">
+                                <h3 class="font-poppins font-medium primary-text-color text-lg">Support</h3>
+                                <a class="text-xs text-white font-poppins" href="#">FAQ's</a>
+                                <a class="text-xs text-white font-poppins" href="#">Privacy Policy</a>
+                                <a class="text-xs text-white font-poppins" href="#">Term & Condition</a>
+                                <a class="text-xs text-white font-poppins" href="#">Contact</a>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="flex flex-col gap-2 mb-3">
+                                <h3 class="font-poppins font-medium primary-text-color text-lg">Phone</h3>
+                                <a class="text-xs text-white font-poppins" href="tel:+1 000 000 0000"><i class="fa-solid fa-phone secondary-text-color"></i> +1 000 000 0000</a>
+                            </div>
+                            <div class="sapce-y-2">
+                                <h3 class="font-poppins font-medium primary-text-color text-lg">Email</h3>
+                                <a class="text-xs text-white font-poppins" href="mailto:burger.info@email.com"><i class="fa-solid fa-envelope secondary-text-color"></i> burger.info@email.com</a>
+                            </div>
+                        </li>
+
+                                                
+                        <li>
+                            <div class="flex flex-col gap-2 mb-3">
+                                <h3 class="font-poppins font-medium primary-text-color text-lg">ADDRESS</h3>
+                                <a class="text-xs text-white font-poppins" href="tel:+1 000 000 0000"><i class="fa-solid fa-phone secondary-text-color"></i> +1 000 000 0000</a>
+                            </div>
+                            <div class="sapce-y-2">
+                                <h3 class="font-poppins font-medium primary-text-color text-lg">FOLLOW US</h3>
+                                <a class="text-xs text-white font-poppins" href="mailto:burger.info@email.com"><i class="fa-solid fa-envelope secondary-text-color"></i> burger.info@email.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-5 opacity-25">
+                <div class="flex flex-col gap-3 items-center lg:flex-row lg:justify-between">
+                    <p class="text-xs text-gray-200 font-poppins font-normal">Burger Template Kit by Light Code</p>
+                    <p class="text-xs text-gray-200 font-poppins font-normal">Copyright © 2023. All rights reserved.</p>
+                </div>
+                
+            </section>
         </footer>
     </div>
     
